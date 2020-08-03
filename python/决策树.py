@@ -233,7 +233,7 @@ if __name__ == '__main__':
     logger = logging.getLogger()
     logger.setLevel(logging.DEBUG)
 
-    raw_data = pd.read_csv('G:/git_code/ML/LearningML/StatisticalLearningMethod/data/train_binary1.csv', header=0)
+    raw_data = pd.read_csv('./data/train_binary1.csv', header=0)
     data = raw_data.values
 
     images = data[0:, 1:]

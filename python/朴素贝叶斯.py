@@ -9,10 +9,10 @@ Y=array([0,0,1,1,0,
          0,0,1,1,1,
          1,1,1,1,0])
 X=hstack((X1,X2))
+print(hstack((X1,X2,Y.reshape(15,1))))
 y={}
 for e in Y:
     y[e]=y.get(e,0)+1
-
 #拉普拉斯平滑
 lamda=1
 
@@ -65,12 +65,12 @@ def naivebayes_2(t,X,Y,y,kind_x1,kind_x2):
     return max,flag
 
 if __name__=='__main__':
-    for i in range(10):
+    for i in range(4):
         K1=[1,2,3]     #X1的取值种类
         K2=['s','m','l']   #X2的取值种类
         t=array([random.choice(K1),random.choice(K2)])  #随机出一个测试示例:如[2 's']
         print("随机实例：{0}".format(t))
         pr,kind=naivebayes_1(t,X,Y,y)    #极大似然估计
-        print("    极大似然：以{0:.4f}的概率被预测为{1}类".format(pr,kind))
+        print("    极大似然：预测为{0}类".format(kind))
         pr,kind=naivebayes_2(t,X,Y,y,K1,K2)   #贝叶斯估计
-        print("    贝叶斯：以{0:.4f}的概率被预测为{1}类".format(pr,kind))
+        print("    贝叶斯：预测为{0}类".format(kind))

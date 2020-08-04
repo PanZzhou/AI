@@ -150,20 +150,16 @@ def divide_train_set(train_set, train_label, feature_index, feature_value):
     return np.array(left), np.array(right), np.array(left_label), np.array(right_label)
 
 
-@log
 def build_tree(train_set, train_label, feature_indexes):
     # 查看是否满足停止条件
     train_label_value = set(train_label)
     if len(train_label_value) == 1:
-        print("a")
         return TreeNode(label=train_label[0])
 
     if feature_indexes is None:
-        print("b")
         return TreeNode(label=train_label[0])
 
     if len(feature_indexes) == 0:
-        print("c")
         if len(train_label)==0:
             return TreeNode(label=1)
         return TreeNode(label=train_label[0])
@@ -173,7 +169,6 @@ def build_tree(train_set, train_label, feature_indexes):
 
     left, right, left_label, right_label = divide_train_set(train_set, train_label, feature_index, feature_value)
 
-    print(feature_indexes,feature_index)
     feature_indexes.remove(feature_index)
     # print("feature_indexes",feature_indexes)
 
@@ -210,13 +205,11 @@ if __name__ == '__main__':
     logger = logging.getLogger()
     logger.setLevel(logging.DEBUG)
 
-    raw_data = pd.read_csv('./data/train_binary2.csv', header=0)
+    raw_data = pd.read_csv('./data/train_binary1.csv', header=0)
     data = raw_data.values
 
     imgs = data[0:, 1:]
     labels = data[:, 0]
-
-    print(imgs.shape)
 
     # 图片二值化
     features = binaryzation_features(imgs)
@@ -225,7 +218,6 @@ if __name__ == '__main__':
     # 选取 2/3 数据作为训练集， 1/3 数据作为测试集
     train_features, test_features, train_labels, test_labels = train_test_split(imgs, labels, test_size=0.33,random_state=1)
 
-    print(type(train_features))
     tree = build_tree(train_features, train_labels, [i for i in range(100)])
     test_predict = predict(tree, test_features)
     score = accuracy_score(test_labels, test_predict)

@@ -214,7 +214,6 @@ def C45_choose(new_gda,new_feature,chosen_grda,chosen_feature,HD):
         return chosen_grda,chosen_feature
 
 
-@log
 def train(train_set, train_label, features, epsilon):
     # print(features)
     return recurse_train(train_set, train_label, features, epsilon)
@@ -231,6 +230,7 @@ def predict(test_set, tree):
 
 if __name__ == '__main__':
     logger = logging.getLogger()
+    
     logger.setLevel(logging.DEBUG)
 
     raw_data = pd.read_csv('./data/train_binary1.csv', header=0)
@@ -246,8 +246,6 @@ if __name__ == '__main__':
 
     logging.debug("############特征选择算法是{0}算法#############".format(cho_met))
     # print(train_features.shape)
-    print(train_features.shape)
-    print(train_labels.shape)
     tree = train(train_features, train_labels, [i for i in range(100)], 0.1)
     test_predict = predict(test_features, tree)
     # print(test_predict)

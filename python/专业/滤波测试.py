@@ -10,26 +10,38 @@ import matplotlib.pyplot as plt
 import scipy.signal as sg
 import dtcwt
 import numpy as np
-import pywt
+#import pywt
 from matplotlib.pylab import *
+import scipy.signal as signal
 
 
-raw_data=pd.read_csv("F:/file/学习/专业ML/dataset/HAR/person_1/barbell bench press/01/ankle.csv",sep='\t',header=4)
+#raw_data=pd.read_csv("F:/file/学习/专业ML/dataset/HAR/person_1/barbell bench press/01/ankle.csv",sep='\t',header=4)
+raw_data=pd.read_csv("F:\\file\\学习\\专业ML\\dataset\\步态分析\\gaitAnalysis\\2020-08-25_14.30.39_gaitAnalysis_MultiSession\\gaitAnalysis_Session1_ankle_Calibrated_PC.csv",sep='\t',header=3)
 data=raw_data.values
 timestamp=data[:,0]
 axiel=data[:,1]#加速度x轴数据
-gyro_data=data[:,6]#陀螺仪z轴数据
+gyro_data=data[:,9]#陀螺仪z轴数据
 
-t=timestamp[0:500]
-a=axiel[0:500]
-g=gyro_data[0:500]
+t=timestamp
+#中值滤波
+#a=signal.medfilt(axiel,5)
+#g=signal.medfilt(gyro_data,5)
+a=axiel
+g=gyro_data
 
+#切比雪夫二型滤波
+sos = signal.cheby2(4, 20, 0.3, 'lowpass', output='sos')
+a_filtered = signal.sosfilt(sos, a)
 plt.figure(figsize=(12, 12))
 subplot(211)
+plot(t,a_filtered)
+subplot(212)
 plot(t,a)
 # subplot(212)
-plot(t,g)
+#plot(t,g)
 show()
+print(len(a))
+print(len(a_filtered))
 
 #小波变换
 '''

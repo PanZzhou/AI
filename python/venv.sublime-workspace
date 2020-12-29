@@ -1,0 +1,836 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"im",
+				"import\tkeyword"
+			],
+			[
+				"h",
+				"header"
+			],
+			[
+				"col",
+				"columns\tparam"
+			],
+			[
+				"data",
+				"dataframe"
+			],
+			[
+				"read",
+				"read_csv\tfunction"
+			],
+			[
+				"mak",
+				"make_dir\tfunction"
+			],
+			[
+				"to",
+				"to_csv\tfunction"
+			],
+			[
+				"ankle",
+				"ankle_angle_l\tstatement"
+			],
+			[
+				"kn",
+				"knee_angle_r\tstatement"
+			],
+			[
+				"knee_an",
+				"knee_angle_r"
+			],
+			[
+				"ank",
+				"ankle_angle_l\tstatement"
+			],
+			[
+				"trian_se",
+				"train_set_res\tstatement"
+			],
+			[
+				"__sig",
+				"__sigmod_deviration\tfunction"
+			],
+			[
+				"training",
+				"training_set_outputs\tstatement"
+			],
+			[
+				"__si",
+				"__sigmod_derivative"
+			],
+			[
+				"num",
+				"number_of_iteration\tparam"
+			],
+			[
+				"hs",
+				"hstack\tfunction"
+			],
+			[
+				"multi",
+				"multiply\tinstance"
+			],
+			[
+				"mult",
+				"multiply\tinstance"
+			],
+			[
+				"no",
+				"not_equal\tinstance"
+			],
+			[
+				"readli",
+				"readlines\tfunction"
+			],
+			[
+				"k",
+				"kind_feature_0\tstatement"
+			],
+			[
+				"positi",
+				"positive_labels\tstatement"
+			],
+			[
+				"red",
+				"red_features\tstatement"
+			],
+			[
+				"de",
+				"decision_function\tfunction"
+			],
+			[
+				"supp",
+				"_n_support\tstatement"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "preprocess_data_file.py",
+			"settings":
+			{
+				"buffer_size": 510,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "l_cvs_file.py/csv_test.py",
+			"settings":
+			{
+				"buffer_size": 960,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "朴素贝叶斯.py",
+			"settings":
+			{
+				"buffer_size": 1904,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "神经网络.py",
+			"settings":
+			{
+				"buffer_size": 1353,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "绘图.py",
+			"settings":
+			{
+				"buffer_size": 1105,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "专业/动态时间规整.py",
+			"settings":
+			{
+				"buffer_size": 575,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "专业/滤波测试.py",
+			"settings":
+			{
+				"buffer_size": 2851,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "专业/sensor/ts_to_mot_file.py",
+			"settings":
+			{
+				"buffer_size": 5368,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C Single File.sublime-build",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"vir",
+				"Virtualenv: Activate"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"activ",
+				"Virtualenv: Deactivate"
+			],
+			[
+				"acti",
+				"Virtualenv: Activate"
+			],
+			[
+				"add",
+				"Virtualenv: Add directory"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"virta",
+				"Virtualenv: Remove"
+			],
+			[
+				"env",
+				"Virtualenv: Add directory"
+			],
+			[
+				"Add",
+				"Virtualenv: Add directory"
+			],
+			[
+				"Activate",
+				"Virtualenv: Activate"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 157.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/xinx-pc/Desktop/作业上传系统python源码webForHomework/webForHomework - 工程伦理/run.sh",
+		"/C/Users/xinx-pc/Desktop/作业上传系统python源码webForHomework/webForHomework - 工程伦理/summitHomework.py",
+		"/F/download/chrome_download/db-18.1.40/db-18.1.40/README",
+		"/C/Users/xinx-pc/.docker/daemon.json",
+		"/C/Users/xinx-pc/Desktop/sources.list",
+		"/C/Users/xinx-pc/.ssh/id_rsa_2048.pub",
+		"/C/Users/xinx-pc/.ssh/known_hosts",
+		"/C/Users/xinx-pc/.ssh/id_rsa.pub",
+		"/C/Users/xinx-pc/.ssh/id_rsa",
+		"/C/Users/xinx-pc/AppData/Roaming/Sublime Text 3/Packages/User/Anaconda_python.sublime-build",
+		"/C/Users/xinx-pc/AppData/Roaming/Sublime Text 3/Packages/User/Anaconda.sublime-settings",
+		"/C/Users/xinx-pc/AppData/Roaming/Sublime Text 3/Packages/Anaconda/Anaconda.sublime-settings",
+		"/C/Users/xinx-pc/AppData/Roaming/Sublime Text 3/Packages/User/python3.sublime-build",
+		"/C/Users/xinx-pc/.condarc",
+		"/F/download/chrome_download/history.ua",
+		"/F/download/chrome_download/Validation_Data/raw_data_export.mat",
+		"/F/download/chrome_download/Validation_Data/stride_parameters.csv",
+		"/C/Users/xinx-pc/Desktop/test.c",
+		"/F/code/sublimeCode/python/专业/sensor/test.c",
+		"/F/code/sublimeCode/python/专业/sensor/readme",
+		"/F/code/sublimeCode/python/专业/ts_to_mot_file.py",
+		"/C/Users/xinx-pc/Documents/OpenSim/4.1/Models/Gait2392_Simbody/subject01_walk1.trc",
+		"/F/file/学习/专业ML/dataset/步态分析/gaitAnalysis/第2次测试/SIAT-GAIT-8-28-2020/person_1/marker/siat-gait-8-28-1.trc",
+		"/F/file/学习/专业ML/dataset/步态分析/gaitAnalysis/第2次测试/SIAT-GAIT-8-28-2020/person_1/marker/siat-gait-8-28-3.trc",
+		"/F/file/学习/专业ML/dataset/步态分析/gaitAnalysis/第2次测试/SIAT-GAIT-8-28-2020/person_4/marker/siat-gait-8-28-3.mot",
+		"/F/file/学习/专业ML/dataset/步态分析/gaitAnalysis/第2次测试/SIAT-GAIT-8-28-2020/person_1/siat-gait-8-28-1.ts",
+		"/C/Users/xinx-pc/Documents/OpenSim/4.1/Models/Gait2392_Simbody/subject01_Setup_Analyze.xml",
+		"/F/file/学习/专业ML/dataset/步态分析/gaitAnalysis/第2次测试/SIAT-GAIT-8-28-2020/person_4/cordinate/siat-gait-8-28-9.mot",
+		"/F/file/学习/专业ML/dataset/步态分析/gaitAnalysis/第2次测试/SIAT-GAIT-8-28-2020/person_4/siat-gait-8-28-9.ts",
+		"/F/file/学习/专业ML/dataset/步态分析/gaitAnalysis/第2次测试/SIAT-GAIT-8-28-2020/person_1/normal.mot",
+		"/F/file/学习/专业ML/dataset/步态分析/gaitAnalysis/第2次测试/SIAT-GAIT-8-28-2020/person_1/siat-gait-8-28-1.mot",
+		"/C/Users/xinx-pc/Documents/OpenSim/4.1/Models/Gait2392_Simbody/Tutorial1/normal.mot",
+		"/F/code/sublimeCode/python/决策树_CART算法.py",
+		"/F/code/sublimeCode/python/感知机.py",
+		"/F/code/sublimeCode/python/矩阵技巧.py",
+		"/F/code/sublimeCode/python/支持向量机.py",
+		"/C/Users/xinx-pc/Documents/OpenSim/4.1/Models/Gait2354_Simbody/subject01_walk1_grf.mot",
+		"/C/Users/xinx-pc/Documents/OpenSim/4.1/Models/Gait2392_Simbody/Tutorial1/crouch4.mot",
+		"/D/Program Files (x86)/OpenSim 4.1/Resources/Models/BouncingBlock/bouncing_block.osim",
+		"/D/Program Files (x86)/OpenSim 4.1/Resources/Code/CPP/ExampleMain/TugOfWar1_CreateModel.cpp",
+		"/D/Program Files (x86)/OpenSim 4.1/Resources/Code/CPP/checkEnvironment/checkEnvironment.cpp",
+		"/D/Program Files (x86)/OpenSim 4.1/Resources/Code/Python/dynamic_walker_example_model.osim",
+		"/D/Program Files (x86)/OpenSim 4.1/Resources/Code/Matlab/configureOpenSim.m",
+		"/C/Users/xinx-pc/Desktop/siat-gait-8-28-1.sto",
+		"/F/download/chrome_download/opensim-0.9.1.1/opensim-0.9.1.1/README.md",
+		"/F/file/学习/专业ML/dataset/步态分析/gaitAnalysis/第2次测试/SIAT-GAIT-8-28-2020/README",
+		"/F/file/学习/专业ML/dataset/步态分析/gaitAnalysis/第2次测试/gaitanalysis_MultiSession/README",
+		"/C/Users/xinx-pc/Desktop/周攀.pdf",
+		"/F/file/学习/专业ML/dataset/步态分析/gaitAnalysis/2020-08-25_14.30.39_gaitAnalysis_MultiSession/gaitAnalysis_Session1_ankle_Calibrated_PC.csv",
+		"/F/code/sublimeCode/python/l_cvs_file.py/csv_test.py",
+		"/F/code/sublimeCode/python/knn.py",
+		"/F/code/sublimeCode/python/专业/滤波测试.py",
+		"/F/Program Files (x86)/env/Python/Python38-32/Lib/site-packages/pip/_internal/commands/uninstall.py",
+		"/C/Users/xinx-pc/AppData/Roaming/Sublime Text 3/Packages/User/Virtualenv.sublime-settings",
+		"/F/code/sublimeCode/python/��ͼ.py",
+		"/F/Program Files (x86)/env/Python/Python38-32/lib/ctypes/__init__.py",
+		"/F/Program Files (x86)/env/Python/Python38-32/Lib/site-packages/tensorflow/python/pywrap_tensorflow_internal.py",
+		"/F/Program Files (x86)/env/Python/Python38-32/lib/site-packages/tensorflow/python/pywrap_tensorflow_internal.py",
+		"/C/Users/xinx-pc/Desktop/ii.html",
+		"/F/code/git_code/self/job_interview/常用操作_java.txt",
+		"/F/code/sublimeCode/python/专业/test.py",
+		"/F/file/学习/专业ML/dataset/HAR/person_1/barbell bench press/01/ankle.csv",
+		"/F/code/sublimeCode/python/线性可分支持向量机.py",
+		"/F/file/学习/专业ML/dataset/HAR/person_3/barbell bench press/01/ankle.csv",
+		"/F/code/sublimeCode/python/决策树.py",
+		"/F/code/sublimeCode/python/data/support_vector.csv",
+		"/F/code/sublimeCode/python/data/support_vector1.csv",
+		"/F/code/sublimeCode/python/data/support_vectorRBF.csv",
+		"/C/Users/xinx-pc/Desktop/support_vector.csv",
+		"/F/code/sublimeCode/python/朴素贝叶斯.py",
+		"/F/code/sublimeCode/python/感知机_对偶.py",
+		"/F/code/sublimeCode/python/线性回归.py",
+		"/F/file/学习/专业ML/参考书籍/机器学习实战源代码/machinelearninginaction/Ch06/EXTRAS/plotSupportVectors.py",
+		"/F/file/学习/专业ML/参考书籍/机器学习实战源代码/machinelearninginaction/Ch06/EXTRAS/notLinSeperable.py",
+		"/F/code/sublimeCode/python/data/train_binary1.csv",
+		"/C/Users/xinx-pc/Desktop/README",
+		"/F/file/学习/专业ML/参考书籍/机器学习实战源代码/machinelearninginaction/Ch06/svmMLiA.py",
+		"/F/file/学习/专业ML/参考书籍/机器学习实战源代码/machinelearninginaction/Ch06/EXTRAS/plotRBF.py",
+		"/F/code/sublimeCode/python/<__array_function__ internals>",
+		"/D/Program Files (x86)/Sublime Text 3/code/test.py",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/C/Users/xinx-pc/AppData/Roaming/Sublime Text 3/Packages/User/SublimeTmpl.sublime-settings",
+		"/C/Users/xinx-pc/AppData/Roaming/Sublime Text 3/Packages/User/SublimeREPL.sublime-settings",
+		"/C/Users/xinx-pc/AppData/Roaming/Sublime Text 3/Packages/SublimeREPL/SublimeREPL.sublime-settings",
+		"/C/Users/xinx-pc/AppData/Roaming/Sublime Text 3/Packages/SublimeCodeIntel/.codeintel/config.log",
+		"/C/Users/xinx-pc/AppData/Roaming/Sublime Text 3/Packages/User/untitled.sublime-build",
+		"/C/Users/xinx-pc/AppData/Roaming/Sublime Text 3/Packages/SublimeCodeIntel/SublimeCodeIntel.sublime-settings",
+		"/C/Users/xinx-pc/AppData/Roaming/Sublime Text 3/Packages/User/SublimeCodeIntel.sublime-settings",
+		"/C/Users/xinx-pc/AppData/Roaming/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
+		"/C/Users/xinx-pc/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings"
+	],
+	"find":
+	{
+		"height": 29.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"python",
+			"read_csv",
+			"python",
+			"async",
+			"async1",
+			"mode",
+			"print",
+			"innerL",
+			"oS.tol",
+			"tol",
+			"innerL",
+			"alphaPairsChanged",
+			"innerL",
+			"eCache",
+			"updateEk",
+			"calcEk",
+			"updateEk",
+			"eCache",
+			"selectJ",
+			"selectJrand",
+			"selectJ",
+			"calcEk",
+			"innerL",
+			"smoP",
+			"calcEk",
+			"innerL",
+			"smoP",
+			"kernelTrans",
+			"rbf",
+			"1.3",
+			"kernelTrans",
+			"smoP",
+			"kernelTrans",
+			"smoP",
+			"innerL",
+			"optStruct",
+			"innerL",
+			"calcEk",
+			"innerL",
+			"optStruct",
+			"kernelTrans",
+			" ",
+			"kernelTrans",
+			"optStruct",
+			"smoP",
+			"multiply",
+			"kernelTrans",
+			"seq",
+			"mat",
+			"loadDataSet",
+			"testRbf",
+			"smoP",
+			"loadDataSet",
+			"testRbf",
+			"calc_condition_ent",
+			"4.658191",
+			"sklearn",
+			"testRbf",
+			"loadDataSet",
+			"print",
+			"len",
+			"python_interpreter",
+			"path"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "preprocess_data_file.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 510,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								404,
+								404
+							]
+						],
+						"settings":
+						{
+							"default_extension": "py",
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "l_cvs_file.py/csv_test.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 960,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								939,
+								960
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "朴素贝叶斯.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1904,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								970,
+								970
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 840.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "神经网络.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1353,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								215,
+								215
+							]
+						],
+						"settings":
+						{
+							"default_extension": "py",
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "绘图.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1105,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								236,
+								236
+							]
+						],
+						"settings":
+						{
+							"default_extension": "py",
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "专业/动态时间规整.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 575,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								575,
+								575
+							]
+						],
+						"settings":
+						{
+							"default_extension": "py",
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "专业/滤波测试.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2851,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								346,
+								346
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "专业/sensor/ts_to_mot_file.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5368,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								738,
+								738
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1260.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 43.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 384.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/User/Anaconda_python.sublime-build",
+	"project": "venv.sublime-project",
+	"replace":
+	{
+		"height": 54.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -20,7 +20,7 @@ raw_data=pd.read_csv("F:\\file\\学习\\专业ML\\dataset\\步态分析\\gaitAna
 data=raw_data.values
 timestamp=data[:,0]
 axiel=data[:,1]#加速度x轴数据
-gyro_data=data[:,9]#陀螺仪z轴数据
+gyro_data=data[:,9]#陀螺仪z轴数据	
 
 t=timestamp
 #中值滤波
